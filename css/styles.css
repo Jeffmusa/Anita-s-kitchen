@@ -4,7 +4,7 @@
   text-align: center;
   font-size: 50px;
 }
-img {
+.img{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -14,6 +14,7 @@ img {
   background-image: url("https://github.com/moringaschool/mpft-ip/blob/master/ip2/assets/backgrounds/landing.jpg?raw=true");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  padding-bottom: 5px;
 }
 
   .menu {
@@ -37,24 +38,32 @@ button{
   background-image: url("../images/breakfast.jpg");
   padding:70px;
   color: white;
+  margin: 0;
 
 }
 #lunch{
   background-image: url("../images/lunch.jpg");
   padding:70px;
   color: white;
+  margin: 0;
+
 
 }
 #dinner{
   background-image: url("../images/dinner.jpg");
   padding:70px;
   color: white;
+  margin: 0;
+
+
 
 }
 #happyhour{
   background-color: lightgrey;
   padding:19px;
   color: black;
+  margin: 0;
+
 
 
 
@@ -63,8 +72,28 @@ button{
   background-color: #F15A29;
   padding:19px;
   color: white;
+  margin: 0;
+
 
 }
 h2:hover{
    background-color: blue;
+}
+
+html{
+  background-color: lightgrey;
+}
+#burger{
+  background-image: url("../images/foodsBg.jpg");
+  padding: 20px;
+  display: block;
+ justify-content: space-between;
+ background-attachment: fixed;
+}
+#bottom{
+  background-color: #F15A29;
+}
+#img{
+  padding: 50px;
+
 }

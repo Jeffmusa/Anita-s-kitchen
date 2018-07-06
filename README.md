@@ -1,19 +1,8 @@
-<<<<<<< HEAD
-# Independent Project
-
-## Instructions
-  1) Please clone the Moringa School **mpft1-ip** repo to your computer.
-
-  2) Create a repo on your profile, and copy the files from **mpft1-ip** to your new repo.
-  
-  3) Fix up the folder structure.
-
-  4) Submit your link through Moringa School LMS.
-
-  5) Complete the independent project.
-  
-  6) Push your commits up to your repo.
-=======
-# Anita-s-kitchen
-IP
->>>>>>> aaee898386385a0092c070bc4ab5f94ca9537d6e
+# Anita's kitchen
+#### By **Geofrey Musau**
+## This is a landing page of a business which is Anita's kitchen
+## Project setup
+This project will let customers to access Anita's kitchen and have a taste of whwt is prepared in there.
+## Here here you can see
+ [Anita's kitchen](https://github.com/Jeffmusa/Anita-s-kitchen)
+ Copyright (c) 2018 Jeffmusa ltd. 
