@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Independent Project
 
 ## Instructions
@@ -12,3 +13,7 @@
   5) Complete the independent project.
   
   6) Push your commits up to your repo.
+=======
+# Anita-s-kitchen
+IP
+>>>>>>> aaee898386385a0092c070bc4ab5f94ca9537d6e
