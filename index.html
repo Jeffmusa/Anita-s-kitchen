@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="utf-8">
     <title>Anita's kitchen</title>
-      <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-     <link href="css/styles.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <!--MEDIA-->
@@ -50,7 +58,7 @@
         </div>
           </div>
         </div>
-        <div class="col-md-3" id="breakfast">
+        <div class="col-md-3" id="breakfast" >
           <h2>Breakfast</h2>
         </div>
         <div class="col-md-3" id="lunch">
@@ -59,30 +67,27 @@
         <div class="col-md-3" id="dinner">
           <h2>Dinner</h2>
       </div>
-    </div>
   </div>
 <!--END HAPPY-->
 <!--FASTFOOD-->
 <div class="container-fluid">
     <div class="row">
-      <div class="card">
-        <div class="col-md-6 bg-1">
-            <div class="fasts">
-              <div id="img">
+      <div class="col-md-6 bg-1">
+        <div class="card">
+          <div id="img">
                 <img src="images/fastFood1.jpg"  class="img-responsive" style="display:inline" alt="fastfood">
                 <img src="images/fastFood2.jpg"  class="img-responsive" style="display:inline" alt="fastfood">
               </div>
             </div>
+
           </div>
-        </div>
+
 
         <div class="col-md-6 bg-1">
 
                 <h1>Fast Food</h1>
                 <h3>You'll love our delicious fast food</h3>
-                <p>Data Structures are the programmatic way of storing data so that data can be used
-                efficiently. Almost every enterprise application uses various types of data structures in one
-                or the other way.Data Structures are the programmatic way of storing data so that data can be usedefficiently. Almost every enterprise application uses various types of data structures in one or the other way.Data Structures are the programmatic way of storing data so that data can be usedefficiently. Almost every enterprise application uses various types of data structures in one or the other way.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <br/><br/><br/>
 
                 <a href="#"><button class="button button1">VIEW GALLERY &#8594;</button></a>
@@ -93,17 +98,20 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-6 bg-1">
+          <div class="drinks">
            <h1>Drinks</h1>
                 <h3>You'll love our delicious fast food</h3>
-                <p>Data Structures are the programmatic way of storing data so that data can be used
-                efficiently. Almost every enterprise application uses various types of data structures in one
-                or the other way.Data Structures are the programmatic way of storing data so that data can be usedefficiently. Almost every enterprise application uses various types of data structures in one or the other way.Data Structures are the programmatic way of storing data so that data can be usedefficiently. Almost every enterprise application uses various types of data structures in one or the other way.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <br/><br/><br/>
+              </div>
+              <div class="gal">
                 <a href="#"><button class="button button1">VIEW GALLERY &#8594;</button></a>
+              </div>
               </div>
         <div ="card">
         <div class="col-md-6 bg-1">
             <div class="fasts">
+
 
                 <div class="container-fluid">
                  <div class="row">
@@ -124,31 +132,73 @@
     </div>
 </div>
 <!--END FASTFOOD-->
-<!--PARTY-->
-<div class="col-md-12 media2">
-    <div class="party">
-      <div class="partyhead">
+<!--Pill-->
+<div id="burger">
+  <div id="drnk">
+      <div class="pill">
+      <div class="container">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+
+        <li class="nav-item">
+          <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Fast Foods</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Drinks</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Chicken</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Rice</a>
+        </li>
+
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+          <div class="row">
+
+            <div class="col-md-3">
+              <img src="images/chickenBurger.jpg" alt="burger" height="200px">
+            </div>
+
+
+            <div class="col-md-3">
+              <img src="images/beefBurger.jpg" alt="baga" height="200px">
+            </div>
+
+
+            <div class="col-md-3">
+              <img src="images/chickenPizza.jpg" alt="pizza" height="200px">
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+
 
       </div>
-
-		<div id="burger">
-		<img src="images/beefBurger.jpg"  class="img-responsive" style="display:inline" alt="Dinner" width="" height="">
-		<img src="images/chickenBurger.jpg"  class="img-responsive" style="display:inline" alt="Dinner" width="" height="">
-		<img src="images/chickenPizza.jpg"  class="img-responsive" style="display:inline" alt="Dinner" width="" height="">
-        </div>
+      </div>
     </div>
+  </div>
+</div>
 </div>
 
-<!--END PARTY-->
+
+<!--End Pill-->
 
 <!--CUSTOMERS-->
 <div class="container-fluid">
+    <div class="card">
     <div class="row">
         <div class="col-md-12 bg-1">
          <div class="col-md-12 cust">
         <div class="col-md-8 bg-1">
             <div id="text3">
-              <div class="card">
+
                 <h2 style="color:#F15A29;">Our Happy Customers</h2>
                 <h3>George Richard</h3>
                 <p>Data Structures are the programmatic way of storing data so that data can be used
@@ -158,25 +208,31 @@
                 <img src="images/p1.png"  class="img-responsive" style="display:inline" alt="fastfood">
                 <img src="images/p2.png"  class="img-responsive" style="display:inline" alt="fastfood">
                 <img src="images/p3.png"  class="img-responsive" style="display:inline" alt="fastfood"><span style="font-size:10px;color:#F15A29;"> &#8250;</span>
-              </div>
+
             </div>
         </div>
-        <hr>
+
         <div class="col-md-4 bg-1">
             <div id="text3">
+
                 <h2 style="color:#F15A29;">About Menu</h2>
                 <p>Data Structures are the programmatic way of storing data so that data can be used
                 efficiently. Almost every enterprise application uses various types of data structures in one
                 or the other way.Data Structures are the programmatic way of storing data so that data can be usedefficiently. Almost every enterprise application uses various types of data structures in one or the other way.Data Structures are the programmatic way of storing data so that data can be usedefficiently. Almost every enterprise application uses various types of data structures in one or the other way.</p>
+
             </div>
-             </div></div>
+             </div>
+           </div>
       </div>
     </div>
+  </div>
 </div>
 <!--END CUSTOMERS-->
 
 <!--MAIL-->
+
 <div class="col-md-12 media3">
+  <div id="mail">
     <h1 class="textt">Get our daily food items delivered to your email</h1>
     <div class="mail">
         <form action="">
@@ -185,18 +241,21 @@
       </form>
     </div>
 </div>
+</div>
+
 <!--END MAIL-->
 
 <!--FOOTER-->
-<div id="bottom">
 <div class="col-md-12 footer">
     <div class="social">
+      <div id="bottom">
         <h1 style="color:#ffffff;"><img src="images/logo_white.png"  class="img-responsive" style="display:inline" alt="fastfood"> MENU</h1>
         <h3>Thats What We Are</h3><br/>
-        <img src="images/facebook.png"  class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
+        <img src="images/facebook.png"  class="img-responsive" style="display:inline" alt="fastfood">
       <img src="images/twitter.png"  class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
       <img src="images/pinterest.png"  class="img-responsive" style="display:inline" alt="fastfood" width="" height=""><br/><br/><br/>
       <h4>2016 Menu Restaurant</4>
+
     </div>
 </div>
 </div>
