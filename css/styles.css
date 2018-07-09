@@ -5,9 +5,9 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color:green;
+    background-color:#F15A29;
     overflow-x: hidden;
-    transition: 0.9s;
+    transition: 0.3s;
     padding-top: 60px;
     text-align:center;
 }
