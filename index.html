@@ -225,7 +225,9 @@
     <div class="mail">
         <form action="">
             <input type="email" name="email" class="formStyle" placeholder="Your Email" required />
-            <a href="#" class="formButton">Subscribe</a>
+            <button id="email" onclick="myFunction()">Subscribe</button>
+
+  <div id="snackbar">Your subscription is being proccessed...</div>
       </form>
     </div>
 </div>
@@ -249,6 +251,7 @@
 </div>
 </div>
 <!--Script tag-->
+
 <script>
 function openNav() {
     document.getElementById("mySidenav").style.width = "100%";
@@ -256,6 +259,13 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
+//snackbar
+function myFunction() {
+    var x = document.getElementById("snackbar");
+    x.className = "show";
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+
 </script>
 
   </body>

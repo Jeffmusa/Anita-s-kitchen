@@ -187,7 +187,7 @@ border-left-style: none;
 font-size: 28px;
 font-weight: 100;
 color: #ffffff;
-border-radius: 5px;
+border-radius: 2px;
 }
 
 #bottom{
@@ -197,18 +197,18 @@ border-radius: 5px;
   color: white;
   margin-top: -20px;
 }
-.formButton {
+.button {
 margin: 20px;
-background-color:#F15A29;
+border-color:#F15A29;
 display:inline-block;
 color:#ffffff;
-font-size:28px;
+font-size:20px;
 font-weight: 500;
-padding:6px 50px;
-
+padding:6px 20px;
+color: #F15A29;
 border-radius: 5px;
 }
-.formButton:hover {
+button:hover {
 background-color: grey;
 color:#ffffff;
 }
@@ -221,25 +221,81 @@ color:#ffffff;
 #GG{
   padding-bottom: 50px;
 }
+#text3{
+  text-align:center;
+}
 
 /*------- MEDIA, OVERLAY AND TEXT----------*/
 
-.button {
+#email{
 border: none;
-color: #F15A29;
-padding: 15px 32px;
+color: white;
+padding: 9px;
+padding-right: 40px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
-font-size: 18px;
-margin: 4px 2px;
+font-size: 20px;
 cursor: pointer;
-border-radius: 5px;
-background-color: white;
-color: #F15A29;
+border-radius: 2px;
+background-color: #F15A29;
 border: 2px solid #F15A29;
+width:30%;
+
+}
+
+#email:hover {
+background-color: grey;
+color:#ffffff;
 }
 
 
 
 /*-------END MEDIA, OVERLAY AND TEXT----------*/
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #F15A29;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+#snackbar{
+  color: green;
+  background-color: black;
+  text-align: left;
+}
