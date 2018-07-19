@@ -273,6 +273,9 @@ color:#ffffff;
     visibility: visible;
     -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
     animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    font-size: 20px;
+    border-radius: 20px;
+  text-align: center;
 }
 
 @-webkit-keyframes fadein {
